@@ -84,9 +84,9 @@
         </xadb2tst-export>
       </Data>
       <SQLSelect id="xadb2tstSql" maxRows="5">
-        <Statement>select RIDENT, sFIRSTNAME from ADKKXC0.XAEMPLOYEE where RIDENT=123</Statement>
+        <Statement>select RIDENT, FIRSTNAME from ADKKXC0.XAEMPLOYEE where RIDENT=123</Statement>
         <Output name="RIDENT" />
-        <Output name="SFIRSTNAME" />
+        <Output name="FIRSTNAME" />
       </SQLSelect>
     </Component>
     <Verify name="Verify" haltExecution="false">
