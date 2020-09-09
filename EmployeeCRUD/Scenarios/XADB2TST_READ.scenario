@@ -170,6 +170,7 @@ We use test data dynamically from the table that the module operates at</Descrip
         </xadb2tst-export>
       </Data>
     </Component>
+    <Log>test</Log>
   </Test>
   <MetaData>
     <Component name="XADB2TST" type="COBOL">
